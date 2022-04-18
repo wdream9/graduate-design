@@ -1,0 +1,34 @@
+server:
+  port: 8802
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.153.130:8848
+        file-extension: yaml
+        prefix: user-service
+      discovery:
+        server-addr: 192.168.153.130:8848
+  profiles:
+    active: dev
+  application:
+    name: user-service
+  main:
+    allow-bean-definition-overriding: true
+
+# dubbo
+dubbo:
+  application:
+    qos-enable: false
+    name: user-service-dubbo
+    id: user-service-dubbo
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    port: 8848
+    address: nacos://192.168.153.130
+  consumer:
+    check: false  #关闭订阅服务是否启动的检查【检查时，没有服务提供者会报错】
+  scan:
+    base-packages: grad.design.service

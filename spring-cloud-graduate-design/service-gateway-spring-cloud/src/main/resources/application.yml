@@ -1,0 +1,54 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.153.130:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lowerCaseServiceId: true
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/api/sys/**
+          filters:
+            - StripPrefix=2
+#            - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin # 过滤跨域重复
+        - id: download-service
+          uri: lb://download-service
+          predicates:
+            - Path=/api/download/**
+          filters:
+            - StripPrefix=2
+        - id: upload-service
+          uri: lb://upload-service
+          predicates:
+            - Path=/api/upload/**
+          filters:
+            - StripPrefix=2
+      #解决跨域问题
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            # 允许携带认证信息
+            allow-credentials: true
+            # 允许跨域的源(网站域名/ip)，设置*为全部
+            allowedOrigins: "*"
+            # 允许跨域的method， 默认为GET和OPTIONS，设置*为全部
+            allowedMethods: "*"
+            # 允许跨域请求里的head字段，设置*为全部
+            allowedHeaders: "*"
+      #解决双重跨域 RETAIN_FIRST RETAIN_LAST RETAIN_UNIQUE
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+  main:
+    allow-bean-definition-overriding: true
+
+

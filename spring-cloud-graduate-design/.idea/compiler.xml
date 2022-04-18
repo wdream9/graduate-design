@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="upload-file-service" />
+        <module name="graduate-design-commons" />
+        <module name="user-service" />
+        <module name="dubbo-api-interface-graduate" />
+        <module name="service-gateway-spring-cloud" />
+        <module name="download-file-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="download-file-service" target="11" />
+      <module name="dubbo-api-interface-graduate" target="11" />
+      <module name="graduate-design-commons" target="11" />
+      <module name="graduate-design-service-commons" target="11" />
+      <module name="service-gateway-spring-cloud" target="11" />
+      <module name="spring-cloud-graduate-design" target="11" />
+      <module name="upload-file-service" target="11" />
+      <module name="user-service" target="11" />
+      <module name="user-service-graduate-design" target="11" />
+      <module name="user-service-spring-cloud" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="download-file-service" options="-parameters" />
+      <module name="dubbo-api-interface-graduate" options="-parameters" />
+      <module name="graduate-design-commons" options="-parameters" />
+      <module name="graduate-design-service-commons" options="-parameters" />
+      <module name="service-gateway-spring-cloud" options="-parameters" />
+      <module name="spring-cloud-graduate-design" options="-parameters" />
+      <module name="upload-file-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="user-service-graduate-design" options="-parameters" />
+      <module name="user-service-spring-cloud" options="-parameters" />
+    </option>
+  </component>
+</project>

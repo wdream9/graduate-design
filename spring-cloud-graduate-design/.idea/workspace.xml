@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="378d01db-10b7-4569-959b-3e4bd0d3c987" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\shuyi_project\ideaIU\repository" />
+        <option name="mavenHome" value="E:\shuyi_project\ideaIU\install\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="F:\ViKell\Development\apache-maven-3.6.3\conf\settings-ideau.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="26gnB2VwNAGRGhowtF7OYECG1pF" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../shuyi_project/ideaIU/project/sprinboot-20211201/02-boot-dubbo-consumer" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service\src\main\java\grad\design" />
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service\src\main\resources" />
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service-spring-cloud\src\main\resources" />
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service-spring-cloud" />
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service-spring-cloud\src\main\java\grad\design\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="grad.design.utils" />
+      <recent name="grad.design.config" />
+      <recent name="grad.design.mapper.user" />
+      <recent name="grad.design.utils.user" />
+      <recent name="grad.design.service.user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DownloadApplication">
+    <configuration name="ApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-gateway-spring-cloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grad.design.ApplicationRun" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="grad.design.ApplicationRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="download-file-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grad.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="grad.design.DownloadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-gateway-spring-cloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grad.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="grad.design.GatewayApplicationRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="upload-file-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grad.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="grad.design.UploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAppMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service-graduate-design" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="graduate.wyh.UserAppMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grad.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="grad.design.UserServiceApplicationMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DownloadApplication" />
+        <item itemvalue="Spring Boot.UploadApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplicationMain" />
+        <item itemvalue="Spring Boot.GatewayApplicationRun" />
+        <item itemvalue="Spring Boot.ApplicationRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="378d01db-10b7-4569-959b-3e4bd0d3c987" name="Default Changelist" comment="" />
+      <created>1647853968228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647853968228</updated>
+      <workItem from="1647853969343" duration="2361000" />
+      <workItem from="1647856429565" duration="10494000" />
+      <workItem from="1647872929323" duration="2459000" />
+      <workItem from="1647875793975" duration="10691000" />
+      <workItem from="1647927469482" duration="19906000" />
+      <workItem from="1648032668069" duration="6204000" />
+      <workItem from="1648110302195" duration="41857000" />
+      <workItem from="1648287501149" duration="7985000" />
+      <workItem from="1648307964713" duration="5511000" />
+      <workItem from="1648356152398" duration="1667000" />
+      <workItem from="1648362432712" duration="9127000" />
+      <workItem from="1648375406394" duration="9174000" />
+      <workItem from="1648392180359" duration="3715000" />
+      <workItem from="1648552297361" duration="2273000" />
+      <workItem from="1648609595145" duration="9102000" />
+      <workItem from="1648719344241" duration="1763000" />
+      <workItem from="1648872837582" duration="866000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1648042860203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1648042860203" />
+    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648286098839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1648286098839" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1648376515521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1648305444731" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1648376515521" />
+    <state x="464" y="279" width="607" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1647876756260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="279" width="607" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1647876756260" />
+    <state x="155" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1648305409785">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="155" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1648305409785" />
+    <state x="186" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1648171607052" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647878671862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647878671862" />
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1647936207665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1647936207665" />
+    <state width="1094" height="493" key="DebuggerActiveHint" timestamp="1648189739037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1094" height="493" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1648189739037" />
+    <state x="730" y="183" width="438" height="496" key="FileChooserDialogImpl" timestamp="1648395901639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="730" y="183" width="438" height="496" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1648395901639" />
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1648873097287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
+    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1648873097287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
+    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1648873097287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
+    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1648873097287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.1.center" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.1.left" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.1.right" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.2.bottom" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881479" />
+    <state width="1493" height="145" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.2.center" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.2.left" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="145" key="GridCell.Tab.2.right" timestamp="1648873096955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="100" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
+    <state width="1493" height="145" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1648041920399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1648041920399" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1648290695599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1648290695599" />
+    <state x="328" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1648113037853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="328" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1648113037853" />
+    <state x="197" y="68" key="new project wizard" timestamp="1648042803372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="197" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1648042803372" />
+    <state x="464" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1647878600554">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1647878600554" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1647865142235">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1647865142235" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1648171855623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1648171855623" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/grad/design/controller/UserController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.multipart.support.StandardMultipartHttpServletRequest" memberName="multipartFiles" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_cloud_graduate_design$ApplicationMain.ic" NAME="ApplicationMain Coverage Results" MODIFIED="1647927020797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>grad.design.*</FILTER>
+    </SUITE>
+  </component>
+</project>
