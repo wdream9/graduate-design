@@ -1,7 +1,7 @@
 import { LoginParams } from '@/views/user/UserModel';
 import { InjectionKey } from 'vue'
 import { loginApi } from '@/api/user/index'
-import { setToken, setUserId, setExpireTime } from '@/utils/auth/auth'
+import { setTokenSession, setUserIdSession, setExpireTime } from '@/utils/auth/auth'
 
 
 import { createStore, useStore as baseUseStore, Store, ActionContext } from 'vuex'
@@ -53,8 +53,8 @@ export const store = createStore<State>({
             commit('setUserId', res.data.id)
             commit('setUserNick', res.data.nick)
             //存储到sessionStorage
-            setToken(res.data.token)
-            setUserId(res.data.id)
+            setTokenSession(res.data.token)
+            setUserIdSession(res.data.id)
             setExpireTime(res.data.expireTime)
           } 
           resolve(res)

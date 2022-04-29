@@ -1,12 +1,6 @@
 <template>
     <div class="logincontainer">
-        <el-form
-            class="loginForm"
-            :model="loginModel"
-            ref="loginFormRef"
-            :rules="rules"
-            :inline="false"
-        >
+        <el-form class="loginForm" :model="loginModel" ref="loginFormRef" :rules="rules" :inline="false">
             <el-form-item>
                 <div class="loginTitle" style="align: center">登录</div>
             </el-form-item>
@@ -53,10 +47,45 @@ const { loginModel, rules, forget, loginFormRef } = useBaseLogin();
 // 获取验证码
 const { imageSrc, send } = codeLogin();
 // 登录
-const { login ,register} = userLogin(loginModel);
+const { login, register } = userLogin(loginModel);
 
 
 </script>
-
-
 <style scoped lang='scss'>
+.logincontainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("@/assets/loginBack.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    .loginForm {
+        height: 320px;
+        width: 400px;
+        border-radius: 10px;
+        padding: 20px 35px;
+        box-shadow: 0 0 25px #cac6c6;
+
+        .loginTitle {
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+
+    .mybtn {
+        width: 190px;
+        display: flex;
+    }
+
+    .forget {
+        display: block;
+        cursor: pointer;
+    }
+}
+</style>
