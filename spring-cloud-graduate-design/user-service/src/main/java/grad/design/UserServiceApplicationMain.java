@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.FeignAutoConfiguration;
 
+/**
+ * @author 王远辉
+ */
 @EnableDubbo
 @EnableDiscoveryClient
 @SpringBootApplication(exclude = { FeignAutoConfiguration.class })

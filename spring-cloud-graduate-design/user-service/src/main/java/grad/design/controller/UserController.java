@@ -11,6 +11,7 @@ import grad.design.service.hdfs.HdfsService;
 import grad.design.service.user.UserService;
 import grad.design.utils.UserUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -32,6 +33,8 @@ public class UserController {
     private RedisTemplate redisTemplate;
     @Value("${expireTime}")
     private int expireTime;
+    @Reference
+    private HdfsService hdfsService;
 
     /**
      * 验证码流返回给客户端
@@ -51,13 +54,15 @@ public class UserController {
      * 用户注册
      */
     @PostMapping("/register")
-    public String registerUser(@RequestBody RegisterInfo registerInfo, HttpServletRequest request) {
+    public String registerUser(@RequestBody RegisterInfo registerInfo, HttpServletRequest request) throws IOException {
         String ip = UserUtils.getIPAddress(request);
         String code = (String) redisTemplate.opsForHash().get("verifyHash", ip);
         if (code.equals(registerInfo.getCode())) {
             redisTemplate.opsForHash().delete("verifyHash", ip);
             User byUsername = userService.findByUsername(registerInfo.getUsername());
             if (ObjectUtil.isEmpty(byUsername)) {
+                // hdfs创建文件夹
+                hdfsService.mkdirDirHdfs(registerInfo.getUsername());
                 User userInfo = userService.saveUserInfo(registerInfo);
                 return userInfo != null ? "00000" : "10004";
             } else {

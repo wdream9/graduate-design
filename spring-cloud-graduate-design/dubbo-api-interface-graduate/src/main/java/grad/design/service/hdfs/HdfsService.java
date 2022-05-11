@@ -25,7 +25,7 @@ public interface HdfsService {
      * @param fileName
      * @return
      */
-    String putFileToHDFS(InputStream fis, String fileName) throws IOException;
+    String putFileToHDFS(InputStream fis, String fileName, Integer userid) throws IOException;
 
     /**
      * 文件下载到客户端

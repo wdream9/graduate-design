@@ -18,8 +18,8 @@ public class DownloadFileController {
     @Autowired
     private HdfsServiceImpl hdfsService;
 
-    @PostMapping("/info")
-    public ArrayList<FileInfo> receive(HttpServletResponse response) throws Exception {
+    @PostMapping("/info/{id}")
+    public ArrayList<FileInfo> receive(@PathVariable("id") Integer userid) throws Exception {
         // 判断 文件 还是 文件夹
         ArrayList<FileInfo> filesType = hdfsService.isFileType("/netdisk/wyh/");
         return filesType;

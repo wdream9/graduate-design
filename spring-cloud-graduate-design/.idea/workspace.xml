@@ -3,8 +3,59 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:design" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="378d01db-10b7-4569-959b-3e4bd0d3c987" name="Default Changelist" comment="" />
+    <list default="true" id="378d01db-10b7-4569-959b-3e4bd0d3c987" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/utils/auth/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/utils/auth/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/utils/http/axios/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/utils/http/axios/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/views/login/useLogin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/views/login/useLogin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graduate-design-web/src/views/upload/index2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../graduate-design-web/src/views/upload/index2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/DownloadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/DownloadApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/controller/DownloadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/controller/DownloadFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/controller/NacosDownloadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/service/impl/HdfsDubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/service/impl/HdfsDubboServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/service/impl/HdfsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/download-file-service/src/main/java/grad/design/service/impl/HdfsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api-interface-graduate/src/main/java/grad/design/service/hdfs/HdfsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api-interface-graduate/src/main/java/grad/design/service/hdfs/HdfsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-api-interface-graduate/target/classes/grad/design/service/hdfs/HdfsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-api-interface-graduate/target/classes/grad/design/service/hdfs/HdfsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/UploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/UploadApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/controller/UploadFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/controller/UploadFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/service/impl/HdfsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/src/main/java/grad/design/service/impl/HdfsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/UploadApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/UploadApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/controller/UploadFileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/controller/UploadFileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/service/impl/HdfsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/upload-file-service/target/classes/grad/design/service/impl/HdfsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/grad/design/UserServiceApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/grad/design/UserServiceApplicationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/grad/design/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/grad/design/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/grad/design/service/dubbo/UserDubboImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/grad/design/service/dubbo/UserDubboImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/grad/design/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/grad/design/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/grad/design/UserServiceApplicationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/grad/design/UserServiceApplicationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/grad/design/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/grad/design/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/grad/design/service/dubbo/UserDubboImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/grad/design/service/dubbo/UserDubboImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/grad/design/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/grad/design/service/impl/UserServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +71,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,6 +93,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
@@ -81,7 +136,7 @@
       <recent name="E:\Big_Data\毕设-王远辉\graduate-design\spring-cloud-graduate-design\user-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DownloadApplication">
+  <component name="RunManager" selected="Spring Boot.UploadApplication">
     <configuration name="ApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-gateway-spring-cloud" />
       <extension name="coverage">
@@ -192,17 +247,29 @@
       <workItem from="1648609595145" duration="9102000" />
       <workItem from="1648719344241" duration="1763000" />
       <workItem from="1648872837582" duration="866000" />
+      <workItem from="1652251388682" duration="13780000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1648042860203">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1652253943853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1648042860203" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1652253943853" />
     <state x="514" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648286098839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,74 +296,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1647936207665" />
-    <state width="1094" height="493" key="DebuggerActiveHint" timestamp="1648189739037">
+    <state width="1094" height="493" key="DebuggerActiveHint" timestamp="1652261011580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1094" height="493" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1648189739037" />
+    <state width="1094" height="493" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1652261011580" />
     <state x="730" y="183" width="438" height="496" key="FileChooserDialogImpl" timestamp="1648395901639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="730" y="183" width="438" height="496" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1648395901639" />
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1648873097287">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
-    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1648873097287">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1652271489645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
-    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1648873097287">
+    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652271489645" />
+    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1652271489645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
-    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1648873097287">
+    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652271489645" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1652271489645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1648873097287" />
-    <state width="1493" height="145" key="GridCell.Tab.1.bottom" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652271489645" />
+    <state width="1493" height="135" key="GridCell.Tab.1.bottom" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.1.center" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.1.center" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.1.left" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.1.left" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.1.right" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.1.right" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.2.bottom" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.2.bottom" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1648304881479" />
-    <state width="1493" height="145" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.2.center" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.2.center" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.2.left" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.2.left" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
-    <state width="1493" height="145" key="GridCell.Tab.2.right" timestamp="1648873096955">
+    <state width="1493" height="135" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
+    <state width="1493" height="135" key="GridCell.Tab.2.right" timestamp="1652271489646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="100" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1648304881478" />
-    <state width="1493" height="145" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1648873096955" />
+    <state width="1493" height="135" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1652271489646" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1648041920399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,7 +398,7 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/user-service/src/main/java/grad/design/controller/UserController.java</url>
-          <line>78</line>
+          <line>77</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

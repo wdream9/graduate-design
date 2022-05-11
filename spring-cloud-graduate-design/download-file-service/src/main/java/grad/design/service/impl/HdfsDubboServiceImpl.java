@@ -22,7 +22,7 @@ public class HdfsDubboServiceImpl implements HdfsService {
     }
 
     @Override
-    public String putFileToHDFS(InputStream fis, String fileName) throws IOException {
+    public String putFileToHDFS(InputStream fis, String fileName,Integer userid) throws IOException {
         return null;
     }
 
