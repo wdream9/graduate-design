@@ -12,6 +12,7 @@
           <BreadcrumbVue></BreadcrumbVue>
         </div>
         <div class="t2">
+          <!-- <el-button type="primary" size="mini" @click="download"></el-button> -->
           <UploadButton></UploadButton>
         </div>
       </div>
@@ -34,9 +35,19 @@ const store = useStore()
 const nickName = computed(() => {
   return store.getters['getNick'];
 })
-const {proxy,global} = useInstance();
+// 点击下载
+const download = () => {
+  const url = "http://"
+  const a = document.createElement('a')
+  // 设置图片地址
+  a.href = url
+  //模拟点击事件，实现图片文件的同源下载
+  a.click()
+}
+
+const { proxy, global } = useInstance();
 onMounted(() => {
-  console.log(proxy,global)
+  console.log(proxy, global)
   router.push({ path: '/file' })
 
 })
@@ -44,13 +55,16 @@ onMounted(() => {
 <style scoped lang='scss'>
 .layout {
   height: 100%;
+
   .asside {
     background-color: rgb(235, 233, 236);
   }
+
   .main {
     margin: 0px;
     padding: 0px;
     background-color: rgb(220, 226, 226);
+
     .nick {
       height: 10%;
       padding-top: 15px;
@@ -63,14 +77,17 @@ onMounted(() => {
       overflow: hidden;
       word-break: break-all;
     }
+
     .bread {
       height: 10%;
       align-items: center;
       border-bottom: 1px solid #c2ddd1 !important;
+
       .t1 {
         padding-top: 30px;
         float: left;
       }
+
       .t2 {
         padding-top: 20px;
         margin-right: 50px;

@@ -24,7 +24,7 @@ export const setUserIdSession = (userId: number) => {
     sessionStorage.setItem(Keys.UserId, JSON.stringify(userId))
 }
 export const getUserIdSession = () => {
-    return sessionStorage.getItem(Keys.Token)
+    return sessionStorage.getItem(Keys.UserId)
 }
 //存储expiretime到sessionStorage
 export const setExpireTime = (time: number) => {

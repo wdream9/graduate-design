@@ -14,7 +14,8 @@ import { format } from 'path';
 export interface State {
   token: string,
   userId: number,
-  userNick: string
+  userNick: string,
+  fileList: any[]
 }
 
 export const key: InjectionKey<Store<State>> = Symbol()
@@ -24,7 +25,8 @@ export const store = createStore<State>({
   state: {
     token: '',
     userId: -1,
-    userNick: ''
+    userNick: sessionStorage.getItem("username") as any,
+    fileList: []
   },
   mutations: {
     setToken(state: State, token: string) {
@@ -35,7 +37,10 @@ export const store = createStore<State>({
     },
     setUserNick(state: State, nick: string){
       state.userNick = nick;
-    }
+    },
+    setFileList(state: State, list: any){
+      state.fileList = list;
+    },
   },
   actions: {
     // 登录
@@ -48,6 +53,8 @@ export const store = createStore<State>({
             var d = new Date();
             d.setTime(d.getTime() + cookie.expireTime);
             document.cookie = `netdisk=${cookie.token}; expires=${d.toUTCString()}; path=/`;
+            //保存到localStorage
+            sessionStorage.setItem("username",res.data.nick)
             //设置到vuex中
             commit('setToken', res.data.token)
             commit('setUserId', res.data.id)
@@ -70,6 +77,9 @@ export const store = createStore<State>({
     },
     getNick(state: State){
       return state.userNick
+    },
+    getFileList(state: State){
+      return state.fileList;
     }
   }
 })

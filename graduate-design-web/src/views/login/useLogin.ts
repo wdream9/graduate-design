@@ -12,12 +12,14 @@ export default function userLogin(loginModel: LoginParams) {
     const router = useRouter();
     // 登录
     const login = () => {
+        console.log("login start ===>",Date.now())
         proxy.$refs.loginFormRef.validate(async (valid: boolean) => {
             if (valid) {
-                store.dispatch('login',loginModel).then(res =>{
-                    if(res.data.code == 200){
-                        router.push({path:'/home'})
-                    }else{
+                store.dispatch('login', loginModel).then(res => {
+                    if (res.data.code == 200) {
+                        console.log("login end ===>",Date.now())
+                        router.push({ path: '/home' })
+                    } else {
                         ElNotification({
                             title: 'Prompt',
                             message: "验证码或者密码错误！",
@@ -30,8 +32,8 @@ export default function userLogin(loginModel: LoginParams) {
         })
     }
     // 注册
-    const register = ()=>{
-        router.push("/register")
+    const register = () => {
+        router.push({ path: "/register" })
     }
     return { login, register }
 }

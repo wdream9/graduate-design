@@ -27,7 +27,7 @@ Object.keys(Icons).forEach(key => {
 
 
 import { getTokenCookie } from "@/utils/auth/auth"
-const whiteList = ['/login'];
+const whiteList = ['/login','/register'];
 router.beforeEach((to, from, next) => {
   let token = getTokenCookie("netdisk");
   if (token) { //token存在

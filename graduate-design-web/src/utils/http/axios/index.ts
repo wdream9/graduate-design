@@ -1,4 +1,4 @@
-import { getTokenCookie } from '@/utils/auth/auth'
+import { getTokenCookie, getUserIdSession } from '@/utils/auth/auth'
 import axios from 'axios'
 import { AxiosInstance, AxiosRequestConfig } from 'axios'
 
@@ -17,13 +17,17 @@ class xwlRequest {
                 //请求成功的拦截
                 console.log("interceptors.request", config)
                 let token = getTokenCookie("netdisk") || '';
+
+                let userId = getUserIdSession()
                 if (token) {
                     //把token添加到请求头部
                     config.headers = {
                         'netdisk': token,
+                        'id':userId as unknown as number,
                         'content-type': 'application/json',
                     };
                 }
+                console.log("1、请求配置  config===》",config)
                 return config
             },
             (error) => {
